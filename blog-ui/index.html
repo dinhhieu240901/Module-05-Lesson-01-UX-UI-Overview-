@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/4e9e7bbd1b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <nav
+      class="container flex flex-col md:flex-row justify-around p-6 mx-auto md:items-center"
+      style="background-color: #ffe5ce"
+    >
+      <div class="flex items-center gap-7 mb-4 md:mb-0">
+        <a href="" class="text-yellow-500 hover:text-yellow-500">Home</a>
+        <a href="" class="hover:text-yellow-500">About Us</a>
+        <a href="" class="hover:text-yellow-500">Blogs</a>
+        <a href="" class="hover:text-yellow-500">Our Team</a>
+        <a href="" class="hover:text-yellow-500">Contact Us</a>
+      </div>
+
+      <div class="flex items-center gap-5">
+        <img
+          alt="Black Facebook Icon"
+          fetchpriority="high"
+          src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_28,h_28,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0fdef751204647a3bbd7eaa2827ed4f9.png"
+          style="width: 22px; height: 22px; object-fit: cover"
+        />
+        <img
+          alt="Black YouTube Icon"
+          fetchpriority="high"
+          src="https://static.wixstatic.com/media/78aa2057f0cb42fbbaffcbc36280a64a.png/v1/fill/w_28,h_28,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/78aa2057f0cb42fbbaffcbc36280a64a.png"
+          style="width: 22px; height: 22px; object-fit: cover"
+        />
+        <img
+          alt="Black Instagram Icon"
+          fetchpriority="high"
+          src="https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_28,h_28,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/01c3aff52f2a4dffa526d7a9843d46ea.png"
+          style="width: 22px; height: 22px; object-fit: cover"
+        />
+        <img
+          alt="Black Pinterest Icon"
+          fetchpriority="high"
+          src="https://static.wixstatic.com/media/8f6f59264a094af0b46e9f6c77dff83e.png/v1/fill/w_28,h_28,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/8f6f59264a094af0b46e9f6c77dff83e.png"
+          style="width: 22px; height: 22px; object-fit: cover"
+        />
+      </div>
+    </nav>
+    <div class="w-full flex flex-col justify-center items-center gap-4 py-8">
+      <span style="letter-spacing: 0.1em" class="wixui-rich-text__text"
+        >A LIFESTYLE BLOG</span
+      >
+      <span
+        class="color_15 wixui-rich-text__text text-5xl font-bold"
+        style="font-family: 'Times New Roman', Times, serif"
+        >Lovely Little Things</span
+      >
+    </div>
+    <div class="banner-img">
+      <img
+        src="https://static.wixstatic.com/media/f61af8_e15083b95c954f71a1b4d9a5a78ded70~mv2_d_2121_1312_s_2.jpg"
+        class="w-full h-96 object-cover"
+        alt="Banner Image"
+      />
+    </div>
+    <section class="py-12">
+      <div class="lg:container xl:max-w-7xl mx-auto px-4">
+        <h2 class="text-2xl md:text-3xl font-bold">Latest Posts</h2>
+        <div class="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div>
+            <a href="#" class="block group/post">
+              <div
+                class="relative rounded-md overflow-hidden before:absolute before:w-full before:h-1/2 before:bottom-0 before:left-0 before:bg-gradient-to-b before:from-transparent before:to-black mb-6"
+              >
+                <img
+                  src="https://source.unsplash.com/random/500x500/?tech"
+                  alt=""
+                  class="w-full h-48 sm:h-96 object-cover"
+                />
+                <div class="absolute bottom-4 left-4 flex items-center">
+                  <img
+                    src="https://source.unsplash.com/random/32x32/?user"
+                    alt=""
+                    class="w-8 h-8 rounded-full"
+                  />
+                  <span class="ml-3 font-medium text-white">by Fajar Std</span>
+                </div>
+                <div
+                  class="absolute top-4 right-4 w-10 h-10 rounded-full bg-rose-500 text-white flex items-center justify-center"
+                >
+                  <i class="ri-fire-fill"></i>
+                </div>
+              </div>
+              <span
+                class="text-xl sm:text-2xl font-medium leading-snug sm:leading-snug bg-underline bg-[length:0_6%] bg-no-repeat bg-[0_100%] transition-all group-hover/post:bg-[length:100%_6%]"
+                >Lorem ipsum dolor, sit amet consectetur adipisicing.</span
+              >
+              <p class="text-gray-600 line-clamp-3 mt-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                nihil beatae vero ea, quasi assumenda hic vel. Ipsum expedita,
+                at voluptas ducimus et nulla quae labore, cum tenetur a magnam?
+              </p>
+              <ul class="flex items-center mt-4">
+                <li class="text-sm font-semibold text-gray-500">
+                  Oct 10, 2023
+                </li>
+                <li
+                  class="text-sm font-semibold text-gray-500 before:w-1 before:h-1 before:rounded-full before:bg-gray-400 before:align-middle before:mx-2 before:inline-block"
+                >
+                  3 min read
+                </li>
+              </ul>
+            </a>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <a href="#" class="block group/post">
+              <div
+                class="relative rounded-md overflow-hidden before:absolute before:w-full before:h-1/2 before:bottom-0 before:left-0 before:bg-gradient-to-b before:from-transparent before:to-black mb-4"
+              >
+                <img
+                  src="https://source.unsplash.com/random/500x500/?tech"
+                  alt=""
+                  class="w-full h-48 object-cover"
+                />
+                <div class="absolute bottom-4 left-4 flex items-center">
+                  <img
+                    src="https://source.unsplash.com/random/32x32/?user"
+                    alt=""
+                    class="w-8 h-8 rounded-full"
+                  />
+                  <span class="ml-3 font-medium text-white">by Fajar Std</span>
+                </div>
+              </div>
+              <span
+                class="text-xl font-medium leading-snug bg-underline bg-[length:0_6%] bg-no-repeat bg-[0_100%] transition-all group-hover/post:bg-[length:100%_6%]"
+                >Lorem ipsum dolor sit amet consectetur.</span
+              >
+              <ul class="flex items-center mt-4">
+                <li class="text-sm font-semibold text-gray-500">
+                  Oct 10, 2023
+                </li>
+                <li
+                  class="text-sm font-semibold text-gray-500 before:w-1 before:h-1 before:rounded-full before:bg-gray-400 before:align-middle before:mx-2 before:inline-block"
+                >
+                  3 min read
+                </li>
+              </ul>
+            </a>
+            <a href="#" class="block group/post">
+              <div
+                class="relative rounded-md overflow-hidden before:absolute before:w-full before:h-1/2 before:bottom-0 before:left-0 before:bg-gradient-to-b before:from-transparent before:to-black mb-4"
+              >
+                <img
+                  src="https://source.unsplash.com/random/500x500/?tech"
+                  alt=""
+                  class="w-full h-48 object-cover"
+                />
+                <div class="absolute bottom-4 left-4 flex items-center">
+                  <img
+                    src="https://source.unsplash.com/random/32x32/?user"
+                    alt=""
+                    class="w-8 h-8 rounded-full"
+                  />
+                  <span class="ml-3 font-medium text-white">by Fajar Std</span>
+                </div>
+              </div>
+              <span
+                class="text-xl font-medium leading-snug bg-underline bg-[length:0_6%] bg-no-repeat bg-[0_100%] transition-all group-hover/post:bg-[length:100%_6%]"
+                >Lorem ipsum dolor sit amet consectetur.</span
+              >
+              <ul class="flex items-center mt-4">
+                <li class="text-sm font-semibold text-gray-500">
+                  Oct 10, 2023
+                </li>
+                <li
+                  class="text-sm font-semibold text-gray-500 before:w-1 before:h-1 before:rounded-full before:bg-gray-400 before:align-middle before:mx-2 before:inline-block"
+                >
+                  3 min read
+                </li>
+              </ul>
+            </a>
+            <a href="#" class="block group/post">
+              <div
+                class="relative rounded-md overflow-hidden before:absolute before:w-full before:h-1/2 before:bottom-0 before:left-0 before:bg-gradient-to-b before:from-transparent before:to-black mb-4"
+              >
+                <img
+                  src="https://source.unsplash.com/random/500x500/?tech"
+                  alt=""
+                  class="w-full h-48 object-cover"
+                />
+                <div class="absolute bottom-4 left-4 flex items-center">
+                  <img
+                    src="https://source.unsplash.com/random/32x32/?user"
+                    alt=""
+                    class="w-8 h-8 rounded-full"
+                  />
+                  <span class="ml-3 font-medium text-white">by Fajar Std</span>
+                </div>
+                <div
+                  class="absolute top-4 right-4 w-10 h-10 rounded-full bg-rose-500 text-white flex items-center justify-center"
+                >
+                  <i class="ri-fire-fill"></i>
+                </div>
+              </div>
+              <span
+                class="text-xl font-medium leading-snug bg-underline bg-[length:0_6%] bg-no-repeat bg-[0_100%] transition-all group-hover/post:bg-[length:100%_6%]"
+                >Lorem ipsum dolor sit amet consectetur.</span
+              >
+              <ul class="flex items-center mt-4">
+                <li class="text-sm font-semibold text-gray-500">
+                  Oct 10, 2023
+                </li>
+                <li
+                  class="text-sm font-semibold text-gray-500 before:w-1 before:h-1 before:rounded-full before:bg-gray-400 before:align-middle before:mx-2 before:inline-block"
+                >
+                  3 min read
+                </li>
+              </ul>
+            </a>
+            <a href="#" class="block group/post">
+              <div
+                class="relative rounded-md overflow-hidden before:absolute before:w-full before:h-1/2 before:bottom-0 before:left-0 before:bg-gradient-to-b before:from-transparent before:to-black mb-4"
+              >
+                <img
+                  src="https://source.unsplash.com/random/500x500/?tech"
+                  alt=""
+                  class="w-full h-48 object-cover"
+                />
+                <div class="absolute bottom-4 left-4 flex items-center">
+                  <img
+                    src="https://source.unsplash.com/random/32x32/?user"
+                    alt=""
+                    class="w-8 h-8 rounded-full"
+                  />
+                  <span class="ml-3 font-medium text-white">by Fajar Std</span>
+                </div>
+              </div>
+              <span
+                class="text-xl font-medium leading-snug bg-underline bg-[length:0_6%] bg-no-repeat bg-[0_100%] transition-all group-hover/post:bg-[length:100%_6%]"
+                >Lorem ipsum dolor sit amet consectetur.</span
+              >
+              <ul class="flex items-center mt-4">
+                <li class="text-sm font-semibold text-gray-500">
+                  Oct 10, 2023
+                </li>
+                <li
+                  class="text-sm font-semibold text-gray-500 before:w-1 before:h-1 before:rounded-full before:bg-gray-400 before:align-middle before:mx-2 before:inline-block"
+                >
+                  3 min read
+                </li>
+              </ul>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-12">
+      <div class="lg:container xl:max-w-7xl mx-auto px-4">
+        <div class="swiper swiper-popular rounded-md">
+          <div class="swiper-wrapper">
+            <div
+              class="swiper-slide relative before:absolute before:w-full before:h-full before:bottom-0 before:left-0 before:bg-gradient-to-b before:from-transparent before:to-black group/post"
+            >
+              <a
+                href="#"
+                class="swiper-slide relative before:absolute before:w-full before:h-full before:bottom-0 before:left-0 before:bg-gradient-to-b before:from-transparent before:to-black group/post"
+              >
+                <img
+                  src="https://source.unsplash.com/random/500x500/?tech"
+                  alt=""
+                  class="w-full h-96 object-cover"
+                />
+                <div
+                  class="absolute bottom-0 left-0 w-full p-6 sm:p-8 max-w-3xl"
+                >
+                  <ul class="flex items-center mb-2">
+                    <li class="text-sm font-semibold text-white/70">
+                      Oct 10, 2023
+                    </li>
+                    <li
+                      class="text-sm font-semibold text-white/70 before:w-1 before:h-1 before:rounded-full before:bg-gray-400 before:align-middle before:mx-2 before:inline-block"
+                    >
+                      3 min read
+                    </li>
+                  </ul>
+                  <span
+                    class="text-2xl sm:text-3xl font-medium leading-snug sm:leading-tight bg-underline bg-[length:0_6%] bg-no-repeat bg-[0_100%] transition-all group-hover/post:bg-[length:100%_6%] text-white"
+                    >Lorem ipsum dolor sit amet consectetur.</span
+                  >
+                  <p class="text-white/70 line-clamp-2 mt-2">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Temporibus, non ipsa porro similique ratione illum suscipit
+                    rem iusto modi at?
+                  </p>
+                  <div class="flex items-center mt-6">
+                    <img
+                      src="https://source.unsplash.com/random/32x32/?user"
+                      alt=""
+                      class="w-8 h-8 rounded-full"
+                    />
+                    <span class="ml-3 font-medium text-white"
+                      >by Fajar Std</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div
+              class="swiper-slide relative before:absolute before:w-full before:h-full before:bottom-0 before:left-0 before:bg-gradient-to-b before:from-transparent before:to-black group/post"
+            >
+              <a
+                href="#"
+                class="swiper-slide relative before:absolute before:w-full before:h-full before:bottom-0 before:left-0 before:bg-gradient-to-b before:from-transparent before:to-black group/post"
+              >
+                <img
+                  src="https://source.unsplash.com/random/500x500/?tech"
+                  alt=""
+                  class="w-full h-96 object-cover"
+                />
+                <div
+                  class="absolute bottom-0 left-0 w-full p-6 sm:p-8 max-w-3xl"
+                >
+                  <ul class="flex items-center mb-2">
+                    <li class="text-sm font-semibold text-white/70">
+                      Oct 10, 2023
+                    </li>
+                    <li
+                      class="text-sm font-semibold text-white/70 before:w-1 before:h-1 before:rounded-full before:bg-gray-400 before:align-middle before:mx-2 before:inline-block"
+                    >
+                      3 min read
+                    </li>
+                  </ul>
+                  <span
+                    class="text-2xl sm:text-3xl font-medium leading-snug sm:leading-tight bg-underline bg-[length:0_6%] bg-no-repeat bg-[0_100%] transition-all group-hover/post:bg-[length:100%_6%] text-white"
+                    >Lorem ipsum dolor sit amet consectetur.</span
+                  >
+                  <p class="text-white/70 line-clamp-2 mt-2">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Temporibus, non ipsa porro similique ratione illum suscipit
+                    rem iusto modi at?
+                  </p>
+                  <div class="flex items-center mt-6">
+                    <img
+                      src="https://source.unsplash.com/random/32x32/?user"
+                      alt=""
+                      class="w-8 h-8 rounded-full"
+                    />
+                    <span class="ml-3 font-medium text-white"
+                      >by Fajar Std</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <section class="py-12">
+      <div class="lg:container xl:max-w-7xl mx-auto px-4">
+        <h2 class="text-2xl md:text-3xl font-bold">Trending Posts</h2>
+        <div class="swiper swiper-trending mt-8">
+          <div class="swiper-wrapper">
+            <a href="#" class="swiper-slide sm:flex group/post">
+              <div
+                class="relative rounded-md overflow-hidden before:absolute before:w-full before:h-1/2 before:bottom-0 before:left-0 before:bg-gradient-to-b before:from-transparent before:to-black flex-shrink-0 mb-4 sm:mb-0"
+              >
+                <img
+                  src="https://source.unsplash.com/random/500x500/?tech"
+                  alt=""
+                  class="w-full sm:w-48 h-48 sm:h-32 object-cover"
+                />
+                <div class="absolute bottom-4 left-4 flex items-center">
+                  <img
+                    src="https://source.unsplash.com/random/32x32/?user"
+                    alt=""
+                    class="w-8 h-8 rounded-full"
+                  />
+                </div>
+              </div>
+              <div class="sm:ml-4">
+                <span
+                  class="text-xl font-medium leading-snug bg-underline bg-[length:0_6%] bg-no-repeat bg-[0_100%] transition-all group-hover/post:bg-[length:100%_6%]"
+                  >Lorem ipsum dolor sit amet consectetur.</span
+                >
+                <p class="text-gray-600 line-clamp-2 mt-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                  nihil beatae vero ea, quasi assumenda hic vel. Ipsum expedita,
+                  at voluptas ducimus et nulla quae labore, cum tenetur a
+                  magnam?
+                </p>
+                <ul class="flex items-center mt-4">
+                  <li class="text-sm font-semibold text-gray-500">
+                    Oct 10, 2023
+                  </li>
+                  <li
+                    class="text-sm font-semibold text-gray-500 before:w-1 before:h-1 before:rounded-full before:bg-gray-400 before:align-middle before:mx-2 before:inline-block"
+                  >
+                    3 min read
+                  </li>
+                </ul>
+              </div>
+            </a>
+            <a href="#" class="swiper-slide sm:flex group/post">
+              <div
+                class="relative rounded-md overflow-hidden before:absolute before:w-full before:h-1/2 before:bottom-0 before:left-0 before:bg-gradient-to-b before:from-transparent before:to-black flex-shrink-0 mb-4 sm:mb-0"
+              >
+                <img
+                  src="https://source.unsplash.com/random/500x500/?tech"
+                  alt=""
+                  class="w-full sm:w-48 h-48 sm:h-32 object-cover"
+                />
+                <div class="absolute bottom-4 left-4 flex items-center">
+                  <img
+                    src="https://source.unsplash.com/random/32x32/?user"
+                    alt=""
+                    class="w-8 h-8 rounded-full"
+                  />
+                </div>
+              </div>
+              <div class="sm:ml-4">
+                <span
+                  class="text-xl font-medium leading-snug bg-underline bg-[length:0_6%] bg-no-repeat bg-[0_100%] transition-all group-hover/post:bg-[length:100%_6%]"
+                  >Lorem ipsum dolor sit amet consectetur.</span
+                >
+                <p class="text-gray-600 line-clamp-2 mt-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                  nihil beatae vero ea, quasi assumenda hic vel. Ipsum expedita,
+                  at voluptas ducimus et nulla quae labore, cum tenetur a
+                  magnam?
+                </p>
+                <ul class="flex items-center mt-4">
+                  <li class="text-sm font-semibold text-gray-500">
+                    Oct 10, 2023
+                  </li>
+                  <li
+                    class="text-sm font-semibold text-gray-500 before:w-1 before:h-1 before:rounded-full before:bg-gray-400 before:align-middle before:mx-2 before:inline-block"
+                  >
+                    3 min read
+                  </li>
+                </ul>
+              </div>
+            </a>
+            <a href="#" class="swiper-slide sm:flex group/post">
+              <div
+                class="relative rounded-md overflow-hidden before:absolute before:w-full before:h-1/2 before:bottom-0 before:left-0 before:bg-gradient-to-b before:from-transparent before:to-black flex-shrink-0 mb-4 sm:mb-0"
+              >
+                <img
+                  src="https://source.unsplash.com/random/500x500/?tech"
+                  alt=""
+                  class="w-full sm:w-48 h-48 sm:h-32 object-cover"
+                />
+                <div class="absolute bottom-4 left-4 flex items-center">
+                  <img
+                    src="https://source.unsplash.com/random/32x32/?user"
+                    alt=""
+                    class="w-8 h-8 rounded-full"
+                  />
+                </div>
+              </div>
+              <div class="sm:ml-4">
+                <span
+                  class="text-xl font-medium leading-snug bg-underline bg-[length:0_6%] bg-no-repeat bg-[0_100%] transition-all group-hover/post:bg-[length:100%_6%]"
+                  >Lorem ipsum dolor sit amet consectetur.</span
+                >
+                <p class="text-gray-600 line-clamp-2 mt-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                  nihil beatae vero ea, quasi assumenda hic vel. Ipsum expedita,
+                  at voluptas ducimus et nulla quae labore, cum tenetur a
+                  magnam?
+                </p>
+                <ul class="flex items-center mt-4">
+                  <li class="text-sm font-semibold text-gray-500">
+                    Oct 10, 2023
+                  </li>
+                  <li
+                    class="text-sm font-semibold text-gray-500 before:w-1 before:h-1 before:rounded-full before:bg-gray-400 before:align-middle before:mx-2 before:inline-block"
+                  >
+                    3 min read
+                  </li>
+                </ul>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </section>
+    <script>
+      // start: Popular
+      new Swiper(".swiper-popular", {
+        slidesPerView: 1,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true,
+        },
+      });
+
+      new Swiper(".swiper-trending", {
+        slidesPerView: 1,
+        spaceBetween: 24,
+        breakpoints: {
+          1024: {
+            slidesPerView: 2,
+          },
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  </body>
+</html>
